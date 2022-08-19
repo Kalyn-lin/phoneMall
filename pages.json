@@ -19,8 +19,8 @@
 				"navigationBarTitleText": "购物车",
 				"enablePullDownRefresh": false
 			}
-		
-		},{
+
+		}, {
 			"path": "pages/mine/mine",
 			"style": {
 				"navigationBarTitleText": "我的",
@@ -29,88 +29,87 @@
 
 		}
 
-	    ,{
-            "path" : "pages/mine/coupon",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "我的优惠券",
-                "enablePullDownRefresh": false
-            }
-            
-        },
+		, {
+			"path": "pages/mine/coupon",
+			"style": {
+				"navigationBarTitleText": "我的优惠券",
+				"enablePullDownRefresh": false
+			}
+
+		},
 		{
-		    "path" : "pages/mine/integral",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "我的积分",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		}
-        ,{
-            "path" : "pages/index/proDetail",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "商品详情",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/mine/adress",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "地址管理",
-                "enablePullDownRefresh": false
-            }
-            
-        },
+			"path": "pages/mine/integral",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/proDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/adress",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"enablePullDownRefresh": false
+			}
+
+		},
 		{
-		    "path" : "pages/mine/addressEdit",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "编辑地址",
-		        "enablePullDownRefresh": false
-		    }
-		    
+			"path": "pages/mine/addressEdit",
+			"style": {
+				"navigationBarTitleText": "编辑地址",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/setup/index",
+			"style": {
+				"navigationBarTitleText": "我的设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/setup/helpCenter",
+			"style": {
+				"navigationBarTitleText": "帮助中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/setup/about",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/classify/index",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/classify/classification",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/mine/order",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
 		}
-        ,{
-            "path" : "pages/mine/setup/index",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "我的设置",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/mine/setup/helpCenter",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "帮助中心",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/mine/setup/about",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "关于我们",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/classify/index",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "购物车",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+	],
 
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -124,27 +123,28 @@
 		"color": "#888888",
 		"selectedColor": "#ff5500",
 		"list": [{
-			"pagePath": "pages/index/index",
-			"iconPath": "static/icon/home.png",
-			"selectedIconPath": "static/icon/home-fill.png",
-			"text": "首页"
-		}, 
-		{
-			"pagePath": "pages/classify/index",
-			"iconPath": "static/icon/classify.png",
-			"selectedIconPath": "static/icon/classify-fill.png",
-			"text": "分类"
-		},
-		{
-			"pagePath": "pages/shopCart/shopCart",
-			"iconPath": "static/icon/shop.png",
-			"selectedIconPath": "static/icon/shop-fill.png",
-			"text": "购物车"
-		}, {
-			"pagePath": "pages/mine/mine",
-			"iconPath": "static/icon/mine.png",
-			"selectedIconPath": "static/icon/mine-fill.png",
-			"text": "我的"
-		}]
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-fill.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classify/index",
+				"iconPath": "static/icon/classify.png",
+				"selectedIconPath": "static/icon/classify-fill.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/shopCart/shopCart",
+				"iconPath": "static/icon/shop.png",
+				"selectedIconPath": "static/icon/shop-fill.png",
+				"text": "购物车"
+			}, {
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/icon/mine.png",
+				"selectedIconPath": "static/icon/mine-fill.png",
+				"text": "我的"
+			}
+		]
 	}
 }
